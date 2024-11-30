@@ -196,7 +196,7 @@ resource "aws_subnet" "private-sa-east-1a" {
   vpc_id                  = aws_vpc.app4-vpc.id
   cidr_block              = "10.233.11.0/24"
   availability_zone       = "sa-east-1a"
-  map_public_ip_on_launch = true
+  map_public_ip_on_launch = false
 
   tags = {
     Name     = "sa-east-1a"
@@ -209,7 +209,7 @@ resource "aws_subnet" "private-sa-east-1c" {
   vpc_id                  = aws_vpc.app4-vpc.id
   cidr_block              = "10.233.12.0/24"
   availability_zone       = "sa-east-1c"
-  map_public_ip_on_launch = true
+  map_public_ip_on_launch = false
 
   tags = {
     Name     = "sa-east-1c"
@@ -252,7 +252,7 @@ resource "aws_subnet" "private-ap-southeast-2a" {
   vpc_id                  = aws_vpc.app5-vpc.id
   cidr_block              = "10.234.11.0/24"
   availability_zone       = "ap-southeast-2a"
-  map_public_ip_on_launch = true
+  map_public_ip_on_launch = false
 
   tags = {
     Name     = "ap-southeast-2a"
@@ -265,7 +265,7 @@ resource "aws_subnet" "private-ap-southeast-2c" {
   vpc_id                  = aws_vpc.app5-vpc.id
   cidr_block              = "10.234.12.0/24"
   availability_zone       = "ap-southeast-2c"
-  map_public_ip_on_launch = true
+  map_public_ip_on_launch = false
 
   tags = {
     Name     = "ap-southeast-2c"
@@ -308,7 +308,7 @@ resource "aws_subnet" "private-ap-east-1a" {
   vpc_id                  = aws_vpc.app6-vpc.id
   cidr_block              = "10.235.11.0/24"
   availability_zone       = "ap-east-1a"
-  map_public_ip_on_launch = true
+  map_public_ip_on_launch = false
 
   tags = {
     Name     = "ap-east-1a"
@@ -321,7 +321,7 @@ resource "aws_subnet" "private-ap-east-1c" {
   vpc_id                  = aws_vpc.app6-vpc.id
   cidr_block              = "10.235.12.0/24"
   availability_zone       = "ap-east-1c"
-  map_public_ip_on_launch = true
+  map_public_ip_on_launch = false
 
   tags = {
     Name     = "ap-east-1c"
@@ -364,7 +364,7 @@ resource "aws_subnet" "private-us-west-1a" {
   vpc_id                  = aws_vpc.app7-vpc.id
   cidr_block              = "10.236.11.0/24"
   availability_zone       = "us-west-1a"
-  map_public_ip_on_launch = true
+  map_public_ip_on_launch = false
 
   tags = {
     Name     = "us-west-1a"
@@ -377,7 +377,7 @@ resource "aws_subnet" "private-us-west-1c" {
   vpc_id                  = aws_vpc.app7-vpc.id
   cidr_block              = "10.236.12.0/24"
   availability_zone       = "us-west-1c"
-  map_public_ip_on_launch = true
+  map_public_ip_on_launch = false
 
   tags = {
     Name     = "us-west-1c"
